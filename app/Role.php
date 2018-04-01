@@ -13,4 +13,7 @@ class Role extends Model
        'role_id', 'role_name'
     ];
 
+
+
+
 }
