@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);#admin-page {
   padding-top: 0px;
-  background-color: #1b6d85;
+  background-color: inherit;
+  color: black;
 }
 
