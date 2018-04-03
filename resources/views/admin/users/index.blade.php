@@ -30,7 +30,7 @@
         <tr>
             <td>{{$user->id}}</td>
             <td><a href="{{route('users.edit', $user->id)}}">{{$user->name}}</a></td>
-            <td><img height="50" src="{{$user->photo ? $user->photo->file : '/images/temp.jpg'}}" alt=""  > </td>
+            <td><img height="50" src="{{$user->photo ? $user->photo->file : '/images/temp.png'}}" alt=""  > </td>
             <td>{{$user->email}}</td>
             <td>{{$user->is_active == 1 ? 'Active' : 'Not Active'}}</td>
             <td>{{$user->role->role_name}}</td>
