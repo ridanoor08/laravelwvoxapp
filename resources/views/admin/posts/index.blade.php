@@ -29,7 +29,7 @@
                     <td>{{$post->post_id}}</td>
                     <td><img height="50" src="{{$post->photo ? $post->photo->file : '/images/temp.png'}}" alt=""  ></td>
                     <td>{{$post->user->name}}</td>
-                    <td>{{$post->catagory_id}}</td>
+                    <td>{{$post->catagory->catagory_name}}</td>
                     <td>{{$post->post_title}}</td>
                     <td>{{$post->post_body}}</td>
                     <td>{{$post->created_at->diffForHumans()}}</td>
